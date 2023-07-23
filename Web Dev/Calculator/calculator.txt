@@ -1,0 +1,4 @@
+here the calculator web app is done 
+the app can perform basic calculations like add,sub,mul,div
+i have chosen calculator app prb statement from all of the four prb statement
+out of two project work, calculator app is one of them
