@@ -3,7 +3,7 @@ let buttons = document.querySelectorAll(".button"); //we are calling the buttons
 
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", (e) => {
-    //onclicking the button we will get the desired output[here we can directly use 'onclick' function and then define a function, but prb statement given to us needs to eventlistener,if-else,loops,etc]
+    //onclicking the button we will get the desired output[here we can directly use 'onclick' function and then define a function, but prb statement given to us needs to have eventlistener,if-else,loops,etc]
     if (e.target.innerHTML == "=") {
       string = eval(string); //here evaluation or execution of an argument is done by eval.
       document.querySelector("input").value = string; //we are calling the input box
